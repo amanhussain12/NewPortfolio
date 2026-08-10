@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,30 +14,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aman Hussain — MERN Stack Developer",
-  description: "Portfolio of Aman Hussain, a MERN Stack Developer building fast, scalable and user-friendly web applications.",
-  other: {
-    "codex-preview": "development",
-  },
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-  },
+  title: "Aman Hussain | MERN & WordPress Developer",
+  description:
+    "Professional portfolio of Aman Hussain, a MERN Stack and WordPress Developer.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
       <body
   suppressHydrationWarning
-  className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+  className={`${geistSans.variable} ${geistMono.variable}`}
 >
   {children}
 </body>
     </html>
   );
 }
+

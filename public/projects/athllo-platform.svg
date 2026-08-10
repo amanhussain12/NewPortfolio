@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b18"/><stop offset="1" stop-color="#17103b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="1150" cy="130" r="230" fill="#8b5cf6" opacity=".18" filter="url(#glow)"/>
+  <circle cx="180" cy="790" r="260" fill="#22d3ee" opacity=".12" filter="url(#glow)"/>
+  <g opacity=".12" stroke="#9a8cff"><path d="M0 150h1400M0 300h1400M0 450h1400M0 600h1400M0 750h1400"/><path d="M180 0v900M380 0v900M580 0v900M780 0v900M980 0v900M1180 0v900"/></g>
+  <rect x="85" y="70" width="1230" height="760" rx="42" fill="#0b1021" stroke="#7c6cf5" stroke-opacity=".42"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="145" y="150" font-size="42" font-weight="800" fill="#fff">ATHLLO</text>
+    <circle cx="115" cy="136" r="13" fill="#22d3ee"/>
+    <text x="915" y="145" font-size="20" fill="#8f98b3">Athletes</text><text x="1030" y="145" font-size="20" fill="#8f98b3">Sponsors</text>
+    <rect x="1165" y="108" width="100" height="50" rx="25" fill="url(#accent)"/><text x="1191" y="140" font-size="18" font-weight="700" fill="#fff">Join</text>
+    <text x="145" y="300" font-size="70" font-weight="800" fill="#fff">Talent meets</text><text x="145" y="380" font-size="70" font-weight="800" fill="url(#accent)">opportunity.</text>
+    <text x="145" y="440" font-size="25" fill="#8992ad">The platform connecting ambitious athletes</text><text x="145" y="478" font-size="25" fill="#8992ad">with brands ready to back their journey.</text>
+    <rect x="145" y="535" width="210" height="62" rx="14" fill="url(#accent)"/><text x="183" y="575" font-size="21" font-weight="700" fill="#fff">Explore athletes</text>
+  </g>
+  <g transform="translate(755 225)">
+    <rect width="450" height="510" rx="32" fill="#111831" stroke="#ffffff" stroke-opacity=".13"/>
+    <rect x="28" y="28" width="394" height="260" rx="22" fill="#202a4a"/>
+    <path d="M170 260c10-75 40-125 85-150 52 45 72 95 75 150" fill="#7c6cf5" opacity=".75"/>
+    <circle cx="252" cy="100" r="52" fill="#c9d2e8"/>
+    <text x="35" y="340" font-family="Arial" font-size="31" font-weight="700" fill="#fff">Jordan Carter</text>
+    <text x="35" y="378" font-family="Arial" font-size="18" fill="#22d3ee">Professional Athlete</text>
+    <rect x="35" y="415" width="110" height="45" rx="22" fill="#7c6cf5" fill-opacity=".2"/><text x="62" y="444" font-family="Arial" font-size="17" fill="#c7bfff">Football</text>
+    <rect x="160" y="415" width="120" height="45" rx="22" fill="#22d3ee" fill-opacity=".15"/><text x="185" y="444" font-family="Arial" font-size="17" fill="#8af1ff">Verified</text>
+  </g>
+</svg>

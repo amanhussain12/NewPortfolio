@@ -40,3 +40,11 @@ next-env.d.ts
 /.sites-runtime/
 /outputs/
 /work/
+node_modules/
+.next/
+.vercel/
+ready-to-copy/
+dist/
+build/
+.env
+.env.local

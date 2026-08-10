@@ -1,6 +1,78 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22 19.2727C22 20.779 20.779 22 19.2727 22H14.7273C13.221 22 12 20.779 12 19.2727V12H19.2727C20.779 12 22 13.221 22 14.7273V19.2727Z" fill="#68C4FF"/>
-<path d="M20 2C21.1046 2 22 2.89543 22 4V7C22 8.10457 21.1046 9 20 9H17C15.8954 9 15 8.10457 15 7V4C15 2.89543 15.8954 2 17 2H20Z" fill="#0C79D8"/>
-<path d="M7 15C8.10457 15 9 15.8954 9 17V20C9 21.1046 8.10457 22 7 22H4C2.89543 22 2 21.1046 2 20V17C2 15.8954 2.89543 15 4 15H7Z" fill="#0C79D8"/>
-<path d="M12 12H4.72727C3.22104 12 2 10.779 2 9.27273V4.72727C2 3.22104 3.22104 2 4.72727 2H9.27273C10.779 2 12 3.22104 12 4.72727V12Z" fill="#2E9EFF"/>
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>Aman Hussain Developer Logo</title>
+
+  <defs>
+    <linearGradient id="background" x1="8" y1="5" x2="58" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121A31" />
+      <stop offset="1" stop-color="#060914" />
+    </linearGradient>
+
+    <linearGradient id="accent" x1="20" y1="17" x2="43" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28D7E5" />
+      <stop offset="0.52" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#B794F6" />
+    </linearGradient>
+
+    <linearGradient id="border" x1="5" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28D7E5" stop-opacity="0.8" />
+      <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.75" />
+      <stop offset="1" stop-color="#28D7E5" stop-opacity="0.2" />
+    </linearGradient>
+
+    <filter id="shadow" x="-10" y="-10" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+
+    <filter id="glow" x="14" y="11" width="36" height="42" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#background)" />
+    <rect x="3.75" y="3.75" width="56.5" height="56.5" rx="14.25" stroke="url(#border)" stroke-width="1.5" />
+  </g>
+
+  <circle cx="32" cy="32" r="20" fill="#8B5CF6" fill-opacity="0.06" />
+  <circle cx="32" cy="32" r="16" stroke="#28D7E5" stroke-opacity="0.08" />
+
+  <path
+    d="M18.5 25.5L12 32L18.5 38.5"
+    stroke="#28D7E5"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M45.5 25.5L52 32L45.5 38.5"
+    stroke="#28D7E5"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M23.5 44L31.8 20L40.5 44M26.7 35H37.2"
+    stroke="#8B5CF6"
+    stroke-opacity="0.3"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+
+  <path
+    d="M23.5 44L31.8 20L40.5 44M26.7 35H37.2"
+    stroke="url(#accent)"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>
